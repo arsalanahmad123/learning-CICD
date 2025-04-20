@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-username/ci-sample.git'
+                git 'https://github.com/arsalanahmad123/learning-CICD'
             }
         }
         stage('Install') {
